@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="M.A Event And Wedding Planner - Best Event Planner in Nashik with 12 years experience. Decoration, Lighting, Sound & Special Effects.">
+    <meta name="keywords" content="Event Planner Nashik, Wedding Planner Nashik, Decoration, Sound System, Light Zone">
+    <meta name="author" content="M.A Event And Wedding Planner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>M.A Event And Wedding Planner | Best in Nashik</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #fffaf2;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #c9a24d, #f5e7b2);
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeDown 1.2s;
+        }
+
+        .logo {
+            font-size: 52px;
+            font-weight: bold;
+            color: #fff;
+            letter-spacing: 5px;
+        }
+
+        header h1 {
+            color: #fff;
+            margin-top: 10px;
+            font-size: 28px;
+        }
+
+        header p {
+            color: #fff;
+            margin-top: 6px;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #fff;
+            text-align: center;
+            padding: 14px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #c9a24d;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+            animation: fadeUp 1.3s;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #c9a24d;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        .btn {
+            background: #c9a24d;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* SERVICES */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .service-box {
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-box h3 {
+            color: #c9a24d;
+            margin-bottom: 10px;
+        }
+
+        /* GALLERY */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+            gap: 15px;
+        }
+
+        .gallery div {
+            background: #e6d8aa;
+            height: 180px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* CONTACT FORM */
+        form {
+            max-width: 500px;
+            margin: auto;
+            display: grid;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+            height: 120px;
+        }
+
+        button {
+            background: #c9a24d;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #c9a24d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* WHATSAPP */
+        .whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 15px 22px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">M.A</div>
+    <h1>Event And Wedding Planner</h1>
+    <p>12 Years Old Trusted Event Planner | Best in Nashik</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Making Every Event Grand</h2>
+    <p>Luxury Wedding & Event Planning Services in Nashik</p>
+    <a href="tel:8180050435" class="btn">Call Now</a>
+    <a href="https://wa.me/919172257435" class="btn">WhatsApp</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        M.A Event And Wedding Planner has over 12 years of experience delivering
+        premium weddings and events. We specialize in decoration, lighting,
+        sound systems, truss setups, and special effects.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box"><h3>Decoration</h3></div>
+        <div class="service-box"><h3>Special Effects</h3></div>
+        <div class="service-box"><h3>Light Zone</h3></div>
+        <div class="service-box"><h3>Truss Setup</h3></div>
+        <div class="service-box"><h3>Sound System</h3></div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Event Gallery</h2>
+    <div class="gallery">
+        <div>Wedding</div>
+        <div>Stage</div>
+        <div>Lighting</div>
+        <div>Decoration</div>
+        <div>Sound</div>
+        <div>Special FX</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p style="text-align:center;margin-top:20px;">
+        📍 Nashik | 📞 8180050435 | 💬 9172257435 <br>
+        📷 <a href="https://www.instagram.com/ma_events_02" target="_blank">@ma_events_02</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 M.A Event And Wedding Planner | All Rights Reserved</p>
+</footer>
+
+<a href="https://wa.me/919172257435" class="whatsapp">WhatsApp</a>
+
+</body>
+</html>
